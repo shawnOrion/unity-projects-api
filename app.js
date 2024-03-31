@@ -9,7 +9,6 @@ var usersRouter = require("./routes/users");
 
 var app = express();
 const mongoose = require("mongoose");
-// require dotenv
 require("dotenv").config();
 // get db_pw from .env file
 const db_pw = process.env.DB_PW;
